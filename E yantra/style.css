@@ -1,0 +1,334 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#header{
+	height:100vh;
+	background-image:url(Images/headerfinalimage.png);
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	margin-right: 0;
+	margin-left: 0;
+}
+.logo{
+	width:100px;
+}
+.common-btn{
+	padding:18px 40px;
+	background: transparent;
+	outline: none;
+	border:2px solid #f67c92;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 15px;
+}
+.line-1{
+	width: 15px;
+	height: 15px;
+	background: #f67c92;
+	display: inline-block;
+}
+.line-2{
+	width: 80px;
+	height: 1px;
+	background: #f67c92;
+	display: inline-block;
+}
+.line-3{
+	width: 60px;
+	height: 1px;
+	background: #f67c92;
+	display: inline-block;
+}
+.line{
+	line-height: 8px;
+}
+.common-btn{
+	padding:18px 40px;
+	background: transparent;
+	outline: none;
+	border: 2px solid #f67c92;
+	font-weight: bold;
+	cursor: pointer;
+}
+#sideNav{
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	right: -250px;
+	top: 0;
+	background: #f67c92;
+	z-index: 2;
+	transition: .5s;
+}
+nav ul li{
+	list-style: none;
+	margin: 50px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+#menuBtn{
+	width: 50px;
+	position: fixed;
+	right: 65px;
+	top: 35px;
+	z-index: 2;
+	cursor: pointer;
+
+}
+/*----Sympotoms---*/
+#Symptoms{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+#Symptoms h1{
+	font-weight: bold;
+}
+.Symptoms-row{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.Symptoms-col{
+	flex-basis: 25%;
+	text-align: center;
+}
+.Symptoms-col img{
+	width: 120px;
+
+}
+.Symptoms-col h4{
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 400;
+
+}
+.symptom-btn{
+	margin:80px auto 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.symptom-btn .line{
+	text-align: right;
+	display: inline-block;
+	margin-right: 25px;
+}
+/*--Do's and Don'ts--*/
+#Do{
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about-left-col{
+	flex-basis: 50%;
+}
+.about-left-col img{
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+	
+}
+.about-right-col{
+	flex-basis: 50%;
+}
+.about-text{
+	max-width: 500px;
+	margin-right: 100px;
+ 	display: inline-block;
+}
+.about-text h2{
+	margin: 50px 0 10px;
+	font-size: 28px;
+	font-style: italic;
+}
+/*---care--*/
+#care{
+	padding: 100px 0;
+}
+.care-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.care-rightcol{
+	flex-basis: 50%;
+}
+.care-rightcol img{
+	max-width: 100%;
+  height: auto;
+
+}
+.care-leftcol{
+	flex-basis: 50%;
+	text-align: left;
+}
+
+.care-text button{
+     margin: 50px 0;
+     margin-left: 20px;
+     margin-top: 10px;
+}
+/*--Usefulinfo--*/
+#Useful-info{
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.about-left-col{
+	flex-basis: 50%;
+}
+.about-left-col img{
+	width: 40%;
+}
+.about-right-col{
+	flex-basis: 50%;
+}
+.about-text{
+	max-width: 500px;
+	margin-right: 70px;
+ 	display: inline-block;
+}
+.about-text h2{
+	margin: 50px 0 10px;
+	font-size: 28px;
+	font-style: italic;
+}
+.about-text button{
+     margin: 50px 0;
+}
+
+
+/*--Myths--*/
+#Myths{
+	padding: 100px 0;
+}
+.care-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.care-rightcol{
+	flex-basis: 50%;
+}
+.care-rightcol img{
+	max-width: 100%;
+  height: auto;
+}
+.care-leftcol{
+	flex-basis: 50%;
+	text-align: left;
+}
+
+.care-text button{
+     margin: 60px 0;
+     max-width: 300px;
+}
+/*--FAQS--*/
+#FAQs,#thankyou{
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.faq-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.faq-leftcol,.faq-rightcol{
+	flex-basis: 50%;
+}
+.faq-leftcol img{
+  max-width: 100%;
+  height: auto;
+
+}
+.about-text button{
+     margin: 50px 0;
+}
+/*---footer--*/
+#footer{
+	padding: 50px 0 30px;
+}
+hr{
+	width: 100%;
+	border: 0;
+	border-top: 1px solid #f67c92;
+}
+.footer-row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footer-leftcol{
+	flex-basis: 50%;
+}
+.footer-rightcol{
+	flex-basis: 35%;
+}
+
+
+@media only screen and (max-width: 770px){
+	#header{
+		background-image: 150px;
+	}
+	
+	.container{
+	margin-right: 0;
+	margin-left: 0;
+   }
+   .logo{
+	width:100px;
+    }
+    #menuBtn{
+	width: 40px;
+	right: 50px;
+}
+.common-btn{
+	padding:10px 16px;
+	
+}
+.about-left-col,.about-right-col{
+	flex-basis: 100%;
+}
+.care-rightcol,.care-leftcol{
+	flex-basis: 100%;
+}
+.faq-leftcol,.faq-rightcol{
+	flex-basis: 100%;
+}
+.about-text{
+	margin: 50px 50px 0;
+ 	display: inline-block;
+}
+.about-text h2{
+	font-size: 18px;
+}
+.Symptoms-col{
+	flex-basis: 100%;
+	margin-bottom: 20px;
+}
+.care-text{
+	margin: 50px 50px 0;
+ 	display: inline-block;
+
+}
+.faq-leftcol img{
+	margin-left: 20px;
+}
+
+}
